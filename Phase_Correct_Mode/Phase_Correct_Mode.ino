@@ -19,7 +19,7 @@ void setup() {
 
   TCCR1A = 0x00;
   TCCR1A = (1<<COM1A1)|(1<<COM1B1)|(1<<WGM10);   
-  TCCR1B = (1<<CS11) | (1<<CS10);
+  TCCR1B = (1<<CS11) | (1<<CS10);   // Prescale : 64
 
   
   OCR0A = 150;
