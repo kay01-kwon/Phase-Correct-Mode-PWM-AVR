@@ -10,9 +10,9 @@ PWM freq : 490 Hz
 
 Pin Info 
 
-//OCR0A : D6 (PD6)
+//OCR0A : D6 (PD6) - Not available in 16 bit Timer Counter
 
-//OCR0B : D5 (PD5)
+//OCR0B : D5 (PD5) - Not available in 16 bit Timer Counter
 
 OCR1A : D9 (PB1) 
 
